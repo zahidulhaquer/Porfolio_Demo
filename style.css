@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: cadetblue;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color:coral;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: black;
+} 
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: cadetblue;
+}
+
+.info a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1ed3d9;
+    background: rgb(0, 0, 0);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4 ease;
+}
+
+.info a:hover{
+    background: cornflowerblue;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4 ease; 
+}
+
+.info ion-icon:hover{
+    background: cornflowerblue;
+}
+
+
